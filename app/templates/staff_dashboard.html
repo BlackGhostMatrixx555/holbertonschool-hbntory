@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Branch: {{ branch.name }}</h2>
+<div class="card">
+    <h3>Update Stock</h3>
+    <form action="/stock/update" method="POST" style="display: flex; gap: 1rem; align-items: end;">
+        <div style="flex: 2;">
+            <label>Product ID</label>
+            <input type="text" name="product_id" placeholder="e.g. PROD-101" class="form-control" required>
+        </div>
+        <div style="flex: 1;">
+            <label>Quantity Change</label>
+            <input type="number" name="delta" placeholder="+5 or -2" class="form-control" required>
+        </div>
+        <button type="submit" class="btn">Update Quantity</button>
+    </form>
+</div>
+<div class="card">
+    <h3>Stock Ledger</h3>
+    <table>
+        <thead><tr><th>Product ID</th><th>Quantity</th></tr></thead>
+        <tbody>
+            {% for s in stocks %}
+            <tr><td><strong>{{ s.product_id }}</strong></td><td>{{ s.quantity }} units</td></tr>
+            {% else %}
+            <tr><td colspan="2">No stock registered.</td></tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+{% endblock %}
