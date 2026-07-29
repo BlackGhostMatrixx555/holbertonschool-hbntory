@@ -1,0 +1,76 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres:16-alpine
+    container_name: hbntory_db
+    environment:
+      POSTGRES_USER: inventory_user
+      POSTGRES_PASSWORD: inventory_password
+      POSTGRES_DB: inventory
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U inventory_user -d inventory"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: hbntory_backend
+    ports:
+      - "8000:8000"
+    environment:
+      APP_NAME: "HBntory Backend"
+      ENVIRONMENT: "development"
+      DATABASE_URL: "postgresql+psycopg://inventory_user:inventory_password@db:5432/inventory"
+      JWT_SECRET_KEY: "change-me-in-production"
+      JWT_ALGORITHM: "HS256"
+      ACCESS_TOKEN_EXPIRE_MINUTES: 60
+      INTERNAL_API_KEY: "change-internal-key"
+      CORS_ORIGINS: "http://localhost:8080,http://localhost:5173,http://localhost:3000"
+    depends_on:
+      db:
+        condition: service_healthy
+
+  product-api:
+    image: python:3.11-slim
+    container_name: hbntory_product_api
+    command: >
+      python -c "
+      from fastapi import FastAPI; import uvicorn;
+      app = FastAPI();
+      products = {
+          'HB-LAP-1001': {'id': 'HB-LAP-1001', 'name': 'Laptop Pro 15', 'description': 'High performance laptop 16GB RAM', 'price': 1200.0, 'category': 'Computers'},
+          'HB-KEY-2003': {'id': 'HB-KEY-2003', 'name': 'Mechanical Keyboard', 'description': 'RGB Mechanical Keyboard', 'price': 85.0, 'category': 'Accessories'},
+          'HB-MON-3005': {'id': 'HB-MON-3005', 'name': '4K Monitor 27 inch', 'description': 'UHD IPS Display', 'price': 350.0, 'category': 'Displays'}
+      };
+      @app.get('/products')
+      def list_p(): return list(products.values());
+      @app.get('/products/{pid}')
+      def get_p(pid: str): return products.get(pid, {'error': 'not_found'});
+      uvicorn.run(app, host='0.0.0.0', port=8001)
+      "
+    ports:
+      - "8001:8001"
+
+  product_mcp_server:
+    build:
+      context: ./product_mcp_server
+      dockerfile: Dockerfile
+    container_name: hbntory_mcp_server
+    environment:
+      PRODUCT_API_URL: "http://product-api:8001"
+      BACKEND_INTERNAL_URL: "http://backend:8000/internal"
+      INTERNAL_API_KEY: "change-internal-key"
+    depends_on:
+      - backend
+      - product-api
+
+volumes:
+  postgres_data:
