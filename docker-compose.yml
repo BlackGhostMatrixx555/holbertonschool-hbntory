@@ -72,5 +72,22 @@ services:
       - backend
       - product-api
 
+  ai_service:
+    build:
+      context: ./project-root/ai_service
+      dockerfile: Dockerfile
+    container_name: hbntory_ai_service
+    ports:
+      - "8002:8002"
+    environment:
+      GROQ_API_KEY: "${GROQ_API_KEY:-}"
+      GROQ_MODEL: "${GROQ_MODEL:-llama-3.3-70b-versatile}"
+      PRODUCT_API_URL: "http://product-api:8001"
+      BACKEND_INTERNAL_URL: "http://backend:8000/internal"
+      INTERNAL_API_KEY: "change-internal-key"
+    depends_on:
+      - backend
+      - product-api
+
 volumes:
   postgres_data:

@@ -18,7 +18,7 @@ import os
 
 from groq import Groq
 
-import mcp_client_mock as tools
+import mcp_client as tools
 
 # If this model is retired, swap it for whatever Groq's docs currently
 # list under "tool use" support (e.g. openai/gpt-oss-120b).

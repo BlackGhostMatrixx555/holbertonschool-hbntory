@@ -1,6 +1,6 @@
 // Point d'entrée du Service IA (Task 5). À adapter à l'URL réelle une fois
 // déployé (ou à charger depuis une config/env si vous préférez).
-const AI_SERVICE_URL = "http://localhost:8000/api/v1/query";
+const AI_SERVICE_URL = "http://localhost:8002/api/v1/query";
 
 const form = document.getElementById("query-form");
 const input = document.getElementById("question-input");
