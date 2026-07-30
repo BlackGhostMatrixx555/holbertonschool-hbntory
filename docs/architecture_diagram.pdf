@@ -1,0 +1,123 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 841.89 595.28] /Resources << /Font << /F1 5 0 R /F2 6 0 R >> >> /Contents 4 0 R >>
+endobj
+4 0 obj
+<< /Length 4973 >>
+stream
+0.95 0.97 1 rg 0 0 841.89 595.28 re f
+BT /F2 20 Tf 0.08 0.12 0.2 rg 35 558 Td (HBntory - Architecture globale \(etat actuel\)) Tj ET
+BT /F1 9 Tf 0.08 0.12 0.2 rg 35 540 Td (Flux pleins : appels actifs. Flux pointilles : composant present mais non integre au parcours principal.) Tj ET
+0.84 0.91 1 rg 35 365 145 72 re f
+0.32 0.39 0.5 RG 1.2 w 35 365 145 72 re S
+BT /F2 11 Tf 0.08 0.12 0.2 rg 45 417 Td (Client Web) Tj ET
+BT /F1 8.5 Tf 0.08 0.12 0.2 rg 45 400 Td (HTML / CSS / JavaScript) Tj ET
+BT /F1 8.5 Tf 0.08 0.12 0.2 rg 45 387 Td (Port 8080) Tj ET
+0.88 0.94 0.86 rg 35 145 145 72 re f
+0.32 0.39 0.5 RG 1.2 w 35 145 145 72 re S
+BT /F2 11 Tf 0.08 0.12 0.2 rg 45 197 Td (Backoffice) Tj ET
+BT /F1 8.5 Tf 0.08 0.12 0.2 rg 45 180 Td (FastAPI - administration) Tj ET
+BT /F1 8.5 Tf 0.08 0.12 0.2 rg 45 167 Td (Port 8003) Tj ET
+1 0.92 0.78 rg 285 365 160 82 re f
+0.32 0.39 0.5 RG 1.2 w 285 365 160 82 re S
+BT /F2 11 Tf 0.08 0.12 0.2 rg 295 427 Td (Service IA) Tj ET
+BT /F1 8.5 Tf 0.08 0.12 0.2 rg 295 410 Td (FastAPI) Tj ET
+BT /F1 8.5 Tf 0.08 0.12 0.2 rg 295 397 Td (POST /api/v1/query) Tj ET
+BT /F1 8.5 Tf 0.08 0.12 0.2 rg 295 384 Td (Port 8002) Tj ET
+0.95 0.87 1 rg 505 480 145 52 re f
+0.32 0.39 0.5 RG 1.2 w 505 480 145 52 re S
+BT /F2 11 Tf 0.08 0.12 0.2 rg 515 512 Td (Groq API) Tj ET
+BT /F1 8.5 Tf 0.08 0.12 0.2 rg 515 495 Td (LLM et tool calling) Tj ET
+0.8 0.9 0.95 rg 505 325 165 82 re f
+0.32 0.39 0.5 RG 1.2 w 505 325 165 82 re S
+BT /F2 11 Tf 0.08 0.12 0.2 rg 515 387 Td (Backend) Tj ET
+BT /F1 8.5 Tf 0.08 0.12 0.2 rg 515 370 Td (Auth - Users - Branches) Tj ET
+BT /F1 8.5 Tf 0.08 0.12 0.2 rg 515 357 Td (Stocks - routes internes) Tj ET
+BT /F1 8.5 Tf 0.08 0.12 0.2 rg 515 344 Td (Port 8000) Tj ET
+1 0.9 0.82 rg 700 420 110 82 re f
+0.32 0.39 0.5 RG 1.2 w 700 420 110 82 re S
+BT /F2 11 Tf 0.08 0.12 0.2 rg 710 482 Td (API Produits) Tj ET
+BT /F1 8.5 Tf 0.08 0.12 0.2 rg 710 465 Td (Catalogue) Tj ET
+BT /F1 8.5 Tf 0.08 0.12 0.2 rg 710 452 Td (placeholder) Tj ET
+BT /F1 8.5 Tf 0.08 0.12 0.2 rg 710 439 Td (Port 8001) Tj ET
+0.94 0.9 0.82 rg 505 180 165 62 re f
+0.32 0.39 0.5 RG 1.2 w 505 180 165 62 re S
+BT /F2 11 Tf 0.08 0.12 0.2 rg 515 222 Td (Serveur MCP) Tj ET
+BT /F1 8.5 Tf 0.08 0.12 0.2 rg 515 205 Td (FastMCP / stdio) Tj ET
+BT /F1 8.5 Tf 0.08 0.12 0.2 rg 515 192 Td (outils produits et stock) Tj ET
+0.91 0.91 0.91 rg 285 145 160 72 re f
+0.32 0.39 0.5 RG 1.2 w 285 145 160 72 re S
+BT /F2 11 Tf 0.08 0.12 0.2 rg 295 197 Td (SQLite) Tj ET
+BT /F1 8.5 Tf 0.08 0.12 0.2 rg 295 180 Td (backoffice.db) Tj ET
+BT /F1 8.5 Tf 0.08 0.12 0.2 rg 295 167 Td (base propre au backoffice) Tj ET
+0.91 0.91 0.91 rg 505 70 165 72 re f
+0.32 0.39 0.5 RG 1.2 w 505 70 165 72 re S
+BT /F2 11 Tf 0.08 0.12 0.2 rg 515 122 Td (PostgreSQL) Tj ET
+BT /F1 8.5 Tf 0.08 0.12 0.2 rg 515 105 Td (base partagee du backend) Tj ET
+BT /F1 8.5 Tf 0.08 0.12 0.2 rg 515 92 Td (users - branches - stocks) Tj ET
+0.2 0.3 0.45 RG 1.25 w [] 0 d 180 401 m 285 401 l S [] 0 d
+285 401 m 278 405 l 278 397 l h f
+BT /F1 7.5 Tf 0.08 0.12 0.2 rg 214.5 408.0 Td (HTTP JSON) Tj ET
+0.2 0.3 0.45 RG 1.25 w [] 0 d 445 420 m 505 506 l S [] 0 d
+505 506 m 509 499 l 501 499 l h f
+BT /F1 7.5 Tf 0.08 0.12 0.2 rg 457.0 470.0 Td (API Groq) Tj ET
+0.2 0.3 0.45 RG 1.25 w [] 0 d 445 392 m 505 373 l S [] 0 d
+505 373 m 498 377 l 498 369 l h f
+0.2 0.3 0.45 RG 1.25 w [] 0 d 445 410 m 700 461 l S [] 0 d
+700 461 m 693 465 l 693 457 l h f
+BT /F1 7.5 Tf 0.08 0.12 0.2 rg 534.5 442.5 Td (HTTP REST catalogue) Tj ET
+0.2 0.3 0.45 RG 1.25 w [] 0 d 180 181 m 285 181 l S [] 0 d
+285 181 m 278 185 l 278 177 l h f
+BT /F1 7.5 Tf 0.08 0.12 0.2 rg 212.5 188.0 Td (SQLAlchemy) Tj ET
+0.2 0.3 0.45 RG 1.25 w [] 0 d 587 325 m 587 142 l S [] 0 d
+587 142 m 591 149 l 583 149 l h f
+BT /F1 7.5 Tf 0.08 0.12 0.2 rg 567.0 240.5 Td (SQLAlchemy) Tj ET
+0.2 0.3 0.45 RG 1.25 w [4 3] 0 d 445 372 m 505 217 l S [] 0 d
+505 217 m 509 224 l 501 224 l h f
+BT /F1 7.5 Tf 0.08 0.12 0.2 rg 445.0 301.5 Td (MCP non utilise) Tj ET
+0.2 0.3 0.45 RG 1.25 w [4 3] 0 d 670 211 m 755 420 l S [] 0 d
+755 420 m 759 413 l 751 413 l h f
+BT /F1 7.5 Tf 0.08 0.12 0.2 rg 694.5 322.5 Td (HTTP REST) Tj ET
+0.2 0.3 0.45 RG 1.25 w [4 3] 0 d 587 242 m 587 325 l S [] 0 d
+587 325 m 591 318 l 583 318 l h f
+BT /F1 7.5 Tf 0.08 0.12 0.2 rg 563.0 290.5 Td (HTTP interne) Tj ET
+BT /F2 10 Tf 0.08 0.12 0.2 rg 35 460 Td (Client final) Tj ET
+0.2 0.3 0.45 RG 1.25 w [] 0 d 105 454 m 105 437 l S [] 0 d
+105 437 m 109 444 l 101 444 l h f
+BT /F2 10 Tf 0.08 0.12 0.2 rg 35 240 Td (Admin / Employe) Tj ET
+0.2 0.3 0.45 RG 1.25 w [] 0 d 105 234 m 105 217 l S [] 0 d
+105 217 m 109 224 l 101 224 l h f
+0.98 0.94 0.84 rg 35 45 410 64 re f
+0.75 0.57 0.2 RG 1 w 35 45 410 64 re S
+BT /F2 10 Tf 0.08 0.12 0.2 rg 48 88 Td (Point d'attention) Tj ET
+BT /F1 8.5 Tf 0.08 0.12 0.2 rg 48 72 Td (Le Backoffice \(SQLite\) et le Backend \(PostgreSQL\) sont deux sources de donnees distinctes.) Tj ET
+BT /F1 8.5 Tf 0.08 0.12 0.2 rg 48 58 Td (Les modifications du Backoffice ne sont donc pas visibles dans le chatbot a ce stade.) Tj ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000121 00000 n 
+0000000263 00000 n 
+0000005288 00000 n 
+0000005358 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+5433
+%%EOF

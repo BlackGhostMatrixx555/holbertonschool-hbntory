@@ -1,0 +1,277 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R 5 0 R 7 0 R 9 0 R 11 0 R] /Count 5 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 13 0 R /F2 14 0 R >> >> /Contents 4 0 R >>
+endobj
+4 0 obj
+<< /Length 2706 >>
+stream
+0.97 0.98 1 rg 0 0 595.28 841.89 re f
+BT /F2 20 Tf 0.06 0.12 0.24 rg 42 775 Td (HBntory - Contributions de l'equipe) Tj ET
+BT /F1 9 Tf 0.28 0.35 0.46 rg 42 755 Td (Synthese des responsabilites et des choix techniques par developpeur) Tj ET
+0.15 0.38 0.75 RG 1.4 w 42 728 m 553 728 l S
+0.1 0.33 0.66 rg 42 694 511 26 re f
+BT /F2 12 Tf 1 1 1 rg 54 703 Td (Objectif du projet) Tj ET
+BT /F1 9.2 Tf 0.08 0.12 0.2 rg 55 660 Td (HBntory est une application de gestion de stocks multi-agences. Elle combine) Tj ET
+BT /F1 9.2 Tf 0.08 0.12 0.2 rg 55 646 Td (une interface de questionnement client, un agent IA, un backoffice et des) Tj ET
+BT /F1 9.2 Tf 0.08 0.12 0.2 rg 55 632 Td (services de donnees pour les produits, les utilisateurs, les agences et le) Tj ET
+BT /F1 9.2 Tf 0.08 0.12 0.2 rg 55 618 Td (stock.) Tj ET
+0.08 0.43 0.46 rg 42 591 511 26 re f
+BT /F2 12 Tf 1 1 1 rg 54 600 Td (Repartition des responsabilites) Tj ET
+1 1 1 rg 51 498 493 67 re f
+0.82 0.86 0.92 RG 0.7 w 51 498 493 67 re S
+BT /F2 10 Tf 0.06 0.25 0.5 rg 63 545 Td (ThÈlyaan - Web et Agent IA) Tj ET
+BT /F1 8.8 Tf 0.08 0.12 0.2 rg 63 529 Td (Interface Web client et service IA qui traite les questions en) Tj ET
+BT /F1 8.8 Tf 0.08 0.12 0.2 rg 63 516 Td (langage naturel, appelle le LLM et recupere les informations) Tj ET
+BT /F1 8.8 Tf 0.08 0.12 0.2 rg 63 503 Td (produits et stocks.) Tj ET
+1 1 1 rg 51 421 493 67 re f
+0.82 0.86 0.92 RG 0.7 w 51 421 493 67 re S
+BT /F2 10 Tf 0.06 0.25 0.5 rg 63 468 Td (Collins - Backoffice) Tj ET
+BT /F1 8.8 Tf 0.08 0.12 0.2 rg 63 452 Td (Interface d'administration des utilisateurs et des stocks.) Tj ET
+BT /F1 8.8 Tf 0.08 0.12 0.2 rg 63 439 Td (Elle couvre la connexion, la gestion des comptes et les) Tj ET
+BT /F1 8.8 Tf 0.08 0.12 0.2 rg 63 426 Td (operations de stock par agence.) Tj ET
+1 1 1 rg 51 344 493 67 re f
+0.82 0.86 0.92 RG 0.7 w 51 344 493 67 re S
+BT /F2 10 Tf 0.06 0.25 0.5 rg 63 391 Td (Harold - Backend et serveur MCP) Tj ET
+BT /F1 8.8 Tf 0.08 0.12 0.2 rg 63 375 Td (API metier centralisee, securite, persistance PostgreSQL,) Tj ET
+BT /F1 8.8 Tf 0.08 0.12 0.2 rg 63 362 Td (routes internes de stock et serveur MCP fournissant les outils) Tj ET
+BT /F1 8.8 Tf 0.08 0.12 0.2 rg 63 349 Td (produits et inventaire.) Tj ET
+0.44 0.26 0.65 rg 42 320 511 26 re f
+BT /F2 12 Tf 1 1 1 rg 54 329 Td (Lecture du rapport) Tj ET
+BT /F1 9.2 Tf 0.08 0.12 0.2 rg 55 286 Td (Les pages suivantes presentent, pour chaque partie, les technologies) Tj ET
+BT /F1 9.2 Tf 0.08 0.12 0.2 rg 55 272 Td (visibles dans le depot et la raison pratique de leur utilisation.) Tj ET
+BT /F1 8 Tf 0.35 0.4 0.48 rg 42 28 Td (HBntory - Rapport de contributions techniques) Tj ET
+BT /F1 8 Tf 0.35 0.4 0.48 rg 510 28 Td (Page 1) Tj ET
+endstream
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 13 0 R /F2 14 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 3644 >>
+stream
+0.97 0.98 1 rg 0 0 595.28 841.89 re f
+BT /F2 20 Tf 0.06 0.12 0.24 rg 42 775 Td (ThÈlyaan - Web et Agent IA) Tj ET
+BT /F1 9 Tf 0.28 0.35 0.46 rg 42 755 Td (Responsabilite : parcours de question client et reponse en langage naturel) Tj ET
+0.15 0.38 0.75 RG 1.4 w 42 728 m 553 728 l S
+0.12 0.42 0.74 rg 42 694 511 26 re f
+BT /F2 12 Tf 1 1 1 rg 54 703 Td (Partie Web client) Tj ET
+1 1 1 rg 51 601 493 67 re f
+0.82 0.86 0.92 RG 0.7 w 51 601 493 67 re S
+BT /F2 10 Tf 0.06 0.25 0.5 rg 63 648 Td (HTML5, CSS3 et JavaScript) Tj ET
+BT /F1 8.8 Tf 0.08 0.12 0.2 rg 63 632 Td (Creation d'une interface legere, sans framework lourd, pour) Tj ET
+BT /F1 8.8 Tf 0.08 0.12 0.2 rg 63 619 Td (saisir une question, afficher l'etat de chargement et) Tj ET
+BT /F1 8.8 Tf 0.08 0.12 0.2 rg 63 606 Td (presenter la reponse de l'assistant dans le navigateur.) Tj ET
+1 1 1 rg 51 524 493 67 re f
+0.82 0.86 0.92 RG 0.7 w 51 524 493 67 re S
+BT /F2 10 Tf 0.06 0.25 0.5 rg 63 571 Td (Fetch API et JSON) Tj ET
+BT /F1 8.8 Tf 0.08 0.12 0.2 rg 63 555 Td (Envoi asynchrone des questions du navigateur vers le service) Tj ET
+BT /F1 8.8 Tf 0.08 0.12 0.2 rg 63 542 Td (IA. JSON fournit un format simple et standard pour transporter) Tj ET
+BT /F1 8.8 Tf 0.08 0.12 0.2 rg 63 529 Td (la question et la reponse.) Tj ET
+1 1 1 rg 51 447 493 67 re f
+0.82 0.86 0.92 RG 0.7 w 51 447 493 67 re S
+BT /F2 10 Tf 0.06 0.25 0.5 rg 63 494 Td (CORS) Tj ET
+BT /F1 8.8 Tf 0.08 0.12 0.2 rg 63 478 Td (Autorise le Client Web et le service IA, servis sur des ports) Tj ET
+BT /F1 8.8 Tf 0.08 0.12 0.2 rg 63 465 Td (differents en developpement, a communiquer depuis le) Tj ET
+BT /F1 8.8 Tf 0.08 0.12 0.2 rg 63 452 Td (navigateur.) Tj ET
+0.12 0.42 0.74 rg 42 423 511 26 re f
+BT /F2 12 Tf 1 1 1 rg 54 432 Td (Service Agent IA) Tj ET
+1 1 1 rg 51 330 493 67 re f
+0.82 0.86 0.92 RG 0.7 w 51 330 493 67 re S
+BT /F2 10 Tf 0.06 0.25 0.5 rg 63 377 Td (Python et FastAPI) Tj ET
+BT /F1 8.8 Tf 0.08 0.12 0.2 rg 63 361 Td (Expose une API REST rapide et concise \(POST /api/v1/query\).) Tj ET
+BT /F1 8.8 Tf 0.08 0.12 0.2 rg 63 348 Td (FastAPI apporte la validation du format de requete et une base) Tj ET
+BT /F1 8.8 Tf 0.08 0.12 0.2 rg 63 335 Td (claire pour un microservice.) Tj ET
+1 1 1 rg 51 253 493 67 re f
+0.82 0.86 0.92 RG 0.7 w 51 253 493 67 re S
+BT /F2 10 Tf 0.06 0.25 0.5 rg 63 300 Td (Groq SDK et LLM avec tool calling) Tj ET
+BT /F1 8.8 Tf 0.08 0.12 0.2 rg 63 284 Td (Le modele interprete la question, decide quelles donnees) Tj ET
+BT /F1 8.8 Tf 0.08 0.12 0.2 rg 63 271 Td (consulter et formule une reponse. Le tool calling limite les) Tj ET
+BT /F1 8.8 Tf 0.08 0.12 0.2 rg 63 258 Td (reponses aux donnees retournees par les outils.) Tj ET
+1 1 1 rg 51 176 493 67 re f
+0.82 0.86 0.92 RG 0.7 w 51 176 493 67 re S
+BT /F2 10 Tf 0.06 0.25 0.5 rg 63 223 Td (HTTPX) Tj ET
+BT /F1 8.8 Tf 0.08 0.12 0.2 rg 63 207 Td (Client HTTP Python utilise pour recuperer le catalogue) Tj ET
+BT /F1 8.8 Tf 0.08 0.12 0.2 rg 63 194 Td (produits et les informations de stock aupres des services) Tj ET
+BT /F1 8.8 Tf 0.08 0.12 0.2 rg 63 181 Td (internes.) Tj ET
+1 1 1 rg 51 99 493 67 re f
+0.82 0.86 0.92 RG 0.7 w 51 99 493 67 re S
+BT /F2 10 Tf 0.06 0.25 0.5 rg 63 146 Td (python-dotenv et variables d'environnement) Tj ET
+BT /F1 8.8 Tf 0.08 0.12 0.2 rg 63 130 Td (Charge la cle Groq et les URL de services hors du code source,) Tj ET
+BT /F1 8.8 Tf 0.08 0.12 0.2 rg 63 117 Td (ce qui facilite la configuration locale et protege les) Tj ET
+BT /F1 8.8 Tf 0.08 0.12 0.2 rg 63 104 Td (secrets.) Tj ET
+BT /F1 8 Tf 0.35 0.4 0.48 rg 42 28 Td (HBntory - Rapport de contributions techniques) Tj ET
+BT /F1 8 Tf 0.35 0.4 0.48 rg 510 28 Td (Page 2) Tj ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 13 0 R /F2 14 0 R >> >> /Contents 8 0 R >>
+endobj
+8 0 obj
+<< /Length 3498 >>
+stream
+0.97 0.98 1 rg 0 0 595.28 841.89 re f
+BT /F2 20 Tf 0.06 0.12 0.24 rg 42 775 Td (Collins - Frontend du Backoffice) Tj ET
+BT /F1 9 Tf 0.28 0.35 0.46 rg 42 755 Td (Responsabilite : interface interne de gestion des utilisateurs et des stocks) Tj ET
+0.15 0.38 0.75 RG 1.4 w 42 728 m 553 728 l S
+0.1 0.5 0.3 rg 42 694 511 26 re f
+BT /F2 12 Tf 1 1 1 rg 54 703 Td (Application et affichage) Tj ET
+1 1 1 rg 51 601 493 67 re f
+0.82 0.86 0.92 RG 0.7 w 51 601 493 67 re S
+BT /F2 10 Tf 0.06 0.25 0.5 rg 63 648 Td (FastAPI) Tj ET
+BT /F1 8.8 Tf 0.08 0.12 0.2 rg 63 632 Td (Fournit les routes du backoffice : connexion, creation) Tj ET
+BT /F1 8.8 Tf 0.08 0.12 0.2 rg 63 619 Td (d'utilisateur, activation, desactivation, suppression et mise) Tj ET
+BT /F1 8.8 Tf 0.08 0.12 0.2 rg 63 606 Td (a jour de stock.) Tj ET
+1 1 1 rg 51 524 493 67 re f
+0.82 0.86 0.92 RG 0.7 w 51 524 493 67 re S
+BT /F2 10 Tf 0.06 0.25 0.5 rg 63 571 Td (Jinja2) Tj ET
+BT /F1 8.8 Tf 0.08 0.12 0.2 rg 63 555 Td (Genere les pages HTML cote serveur a partir de modeles. Ce) Tj ET
+BT /F1 8.8 Tf 0.08 0.12 0.2 rg 63 542 Td (choix est adapte a un outil interne simple, avec formulaires) Tj ET
+BT /F1 8.8 Tf 0.08 0.12 0.2 rg 63 529 Td (et tableaux de gestion.) Tj ET
+1 1 1 rg 51 447 493 67 re f
+0.82 0.86 0.92 RG 0.7 w 51 447 493 67 re S
+BT /F2 10 Tf 0.06 0.25 0.5 rg 63 494 Td (HTML, CSS et formulaires POST) Tj ET
+BT /F1 8.8 Tf 0.08 0.12 0.2 rg 63 478 Td (Construit les ecrans de connexion, de gestion des utilisateurs) Tj ET
+BT /F1 8.8 Tf 0.08 0.12 0.2 rg 63 465 Td (et de stock. Les formulaires transmettent les actions) Tj ET
+BT /F1 8.8 Tf 0.08 0.12 0.2 rg 63 452 Td (administratives de maniere directe.) Tj ET
+0.1 0.5 0.3 rg 42 423 511 26 re f
+BT /F2 12 Tf 1 1 1 rg 54 432 Td (Donnees et securite) Tj ET
+1 1 1 rg 51 330 493 67 re f
+0.82 0.86 0.92 RG 0.7 w 51 330 493 67 re S
+BT /F2 10 Tf 0.06 0.25 0.5 rg 63 377 Td (SQLAlchemy) Tj ET
+BT /F1 8.8 Tf 0.08 0.12 0.2 rg 63 361 Td (Mappe les modeles User, Branch et Stock vers la base de) Tj ET
+BT /F1 8.8 Tf 0.08 0.12 0.2 rg 63 348 Td (donnees et evite d'ecrire des requetes SQL repetitives dans) Tj ET
+BT /F1 8.8 Tf 0.08 0.12 0.2 rg 63 335 Td (les routes Web.) Tj ET
+1 1 1 rg 51 253 493 67 re f
+0.82 0.86 0.92 RG 0.7 w 51 253 493 67 re S
+BT /F2 10 Tf 0.06 0.25 0.5 rg 63 300 Td (SQLite) Tj ET
+BT /F1 8.8 Tf 0.08 0.12 0.2 rg 63 284 Td (Base de donnees locale du backoffice, facile a lancer sans) Tj ET
+BT /F1 8.8 Tf 0.08 0.12 0.2 rg 63 271 Td (serveur de base supplementaire pendant le developpement et la) Tj ET
+BT /F1 8.8 Tf 0.08 0.12 0.2 rg 63 258 Td (demonstration.) Tj ET
+1 1 1 rg 51 176 493 67 re f
+0.82 0.86 0.92 RG 0.7 w 51 176 493 67 re S
+BT /F2 10 Tf 0.06 0.25 0.5 rg 63 223 Td (python-jose, Passlib et bcrypt) Tj ET
+BT /F1 8.8 Tf 0.08 0.12 0.2 rg 63 207 Td (Gere les jetons JWT de session et le hachage securise des mots) Tj ET
+BT /F1 8.8 Tf 0.08 0.12 0.2 rg 63 194 Td (de passe. Les mots de passe ne sont donc pas enregistres en) Tj ET
+BT /F1 8.8 Tf 0.08 0.12 0.2 rg 63 181 Td (clair.) Tj ET
+1 1 1 rg 51 112 493 54 re f
+0.82 0.86 0.92 RG 0.7 w 51 112 493 54 re S
+BT /F2 10 Tf 0.06 0.25 0.5 rg 63 146 Td (Uvicorn et Docker) Tj ET
+BT /F1 8.8 Tf 0.08 0.12 0.2 rg 63 130 Td (Uvicorn execute l'application ASGI et Docker rend le) Tj ET
+BT /F1 8.8 Tf 0.08 0.12 0.2 rg 63 117 Td (backoffice reproductible avec le reste des services du projet.) Tj ET
+BT /F1 8 Tf 0.35 0.4 0.48 rg 42 28 Td (HBntory - Rapport de contributions techniques) Tj ET
+BT /F1 8 Tf 0.35 0.4 0.48 rg 510 28 Td (Page 3) Tj ET
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 13 0 R /F2 14 0 R >> >> /Contents 10 0 R >>
+endobj
+10 0 obj
+<< /Length 2592 >>
+stream
+0.97 0.98 1 rg 0 0 595.28 841.89 re f
+BT /F2 20 Tf 0.06 0.12 0.24 rg 42 775 Td (Harold - Backend) Tj ET
+BT /F1 9 Tf 0.28 0.35 0.46 rg 42 755 Td (Responsabilite : donnees metier et API securisee) Tj ET
+0.15 0.38 0.75 RG 1.4 w 42 728 m 553 728 l S
+0.53 0.25 0.18 rg 42 694 511 26 re f
+BT /F2 12 Tf 1 1 1 rg 54 703 Td (Backend metier) Tj ET
+1 1 1 rg 51 601 493 67 re f
+0.82 0.86 0.92 RG 0.7 w 51 601 493 67 re S
+BT /F2 10 Tf 0.06 0.25 0.5 rg 63 648 Td (FastAPI et Pydantic) Tj ET
+BT /F1 8.8 Tf 0.08 0.12 0.2 rg 63 632 Td (Expose les API d'authentification, utilisateurs, agences,) Tj ET
+BT /F1 8.8 Tf 0.08 0.12 0.2 rg 63 619 Td (stocks et routes internes. Pydantic valide les donnees recues) Tj ET
+BT /F1 8.8 Tf 0.08 0.12 0.2 rg 63 606 Td (et structure les reponses.) Tj ET
+1 1 1 rg 51 524 493 67 re f
+0.82 0.86 0.92 RG 0.7 w 51 524 493 67 re S
+BT /F2 10 Tf 0.06 0.25 0.5 rg 63 571 Td (SQLAlchemy, PostgreSQL et Psycopg) Tj ET
+BT /F1 8.8 Tf 0.08 0.12 0.2 rg 63 555 Td (SQLAlchemy gere les modeles et les transactions ; PostgreSQL) Tj ET
+BT /F1 8.8 Tf 0.08 0.12 0.2 rg 63 542 Td (sert de base relationnelle partagee du backend ; Psycopg) Tj ET
+BT /F1 8.8 Tf 0.08 0.12 0.2 rg 63 529 Td (assure la connexion Python a PostgreSQL.) Tj ET
+1 1 1 rg 51 460 493 54 re f
+0.82 0.86 0.92 RG 0.7 w 51 460 493 54 re S
+BT /F2 10 Tf 0.06 0.25 0.5 rg 63 494 Td (Alembic) Tj ET
+BT /F1 8.8 Tf 0.08 0.12 0.2 rg 63 478 Td (Prepare la gestion versionnee des evolutions de schema de base) Tj ET
+BT /F1 8.8 Tf 0.08 0.12 0.2 rg 63 465 Td (de donnees, utile lorsque les tables et contraintes evoluent.) Tj ET
+1 1 1 rg 51 383 493 67 re f
+0.82 0.86 0.92 RG 0.7 w 51 383 493 67 re S
+BT /F2 10 Tf 0.06 0.25 0.5 rg 63 430 Td (PyJWT et Argon2) Tj ET
+BT /F1 8.8 Tf 0.08 0.12 0.2 rg 63 414 Td (Met en place l'authentification par jeton JWT et le hachage) Tj ET
+BT /F1 8.8 Tf 0.08 0.12 0.2 rg 63 401 Td (moderne des mots de passe. Les roles admin et employe sont) Tj ET
+BT /F1 8.8 Tf 0.08 0.12 0.2 rg 63 388 Td (verifies dans les dependances FastAPI.) Tj ET
+1 1 1 rg 51 306 493 67 re f
+0.82 0.86 0.92 RG 0.7 w 51 306 493 67 re S
+BT /F2 10 Tf 0.06 0.25 0.5 rg 63 353 Td (Cle X-Internal-API-Key) Tj ET
+BT /F1 8.8 Tf 0.08 0.12 0.2 rg 63 337 Td (Protege les routes internes consultees par les services) Tj ET
+BT /F1 8.8 Tf 0.08 0.12 0.2 rg 63 324 Td (techniques, notamment les donnees de stock et d'agences) Tj ET
+BT /F1 8.8 Tf 0.08 0.12 0.2 rg 63 311 Td (utilisees par l'agent IA.) Tj ET
+BT /F1 8 Tf 0.35 0.4 0.48 rg 42 28 Td (HBntory - Rapport de contributions techniques) Tj ET
+BT /F1 8 Tf 0.35 0.4 0.48 rg 510 28 Td (Page 4) Tj ET
+endstream
+endobj
+11 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 13 0 R /F2 14 0 R >> >> /Contents 12 0 R >>
+endobj
+12 0 obj
+<< /Length 1769 >>
+stream
+0.97 0.98 1 rg 0 0 595.28 841.89 re f
+BT /F2 20 Tf 0.06 0.12 0.24 rg 42 775 Td (Harold - Serveur MCP et integrations) Tj ET
+BT /F1 9 Tf 0.28 0.35 0.46 rg 42 755 Td (Responsabilite : outils produits / stocks et orchestration des services) Tj ET
+0.15 0.38 0.75 RG 1.4 w 42 728 m 553 728 l S
+0.53 0.25 0.18 rg 42 694 511 26 re f
+BT /F2 12 Tf 1 1 1 rg 54 703 Td (Serveur MCP) Tj ET
+1 1 1 rg 51 601 493 67 re f
+0.82 0.86 0.92 RG 0.7 w 51 601 493 67 re S
+BT /F2 10 Tf 0.06 0.25 0.5 rg 63 648 Td (MCP Python SDK et FastMCP) Tj ET
+BT /F1 8.8 Tf 0.08 0.12 0.2 rg 63 632 Td (Expose des outils standards : details produit, liste produits,) Tj ET
+BT /F1 8.8 Tf 0.08 0.12 0.2 rg 63 619 Td (disponibilite, inventaire et agences. MCP rend ces fonctions) Tj ET
+BT /F1 8.8 Tf 0.08 0.12 0.2 rg 63 606 Td (reutilisables par un agent compatible.) Tj ET
+1 1 1 rg 51 537 493 54 re f
+0.82 0.86 0.92 RG 0.7 w 51 537 493 54 re S
+BT /F2 10 Tf 0.06 0.25 0.5 rg 63 571 Td (HTTPX et API Produits) Tj ET
+BT /F1 8.8 Tf 0.08 0.12 0.2 rg 63 555 Td (Le serveur MCP appelle l'API Produits et le Backend via HTTP) Tj ET
+BT /F1 8.8 Tf 0.08 0.12 0.2 rg 63 542 Td (afin d'agreger catalogue et stock sans dupliquer ces donnees.) Tj ET
+1 1 1 rg 51 460 493 67 re f
+0.82 0.86 0.92 RG 0.7 w 51 460 493 67 re S
+BT /F2 10 Tf 0.06 0.25 0.5 rg 63 507 Td (Docker Compose) Tj ET
+BT /F1 8.8 Tf 0.08 0.12 0.2 rg 63 491 Td (Orchestre PostgreSQL, Backend, Backoffice, API Produits, MCP,) Tj ET
+BT /F1 8.8 Tf 0.08 0.12 0.2 rg 63 478 Td (service IA et Client Web pour demarrer l'environnement complet) Tj ET
+BT /F1 8.8 Tf 0.08 0.12 0.2 rg 63 465 Td (avec des ports isoles.) Tj ET
+BT /F1 8 Tf 0.35 0.4 0.48 rg 42 28 Td (HBntory - Rapport de contributions techniques) Tj ET
+BT /F1 8 Tf 0.35 0.4 0.48 rg 510 28 Td (Page 5) Tj ET
+endstream
+endobj
+13 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+14 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+xref
+0 15
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000146 00000 n 
+0000000290 00000 n 
+0000003048 00000 n 
+0000003192 00000 n 
+0000006888 00000 n 
+0000007032 00000 n 
+0000010582 00000 n 
+0000010727 00000 n 
+0000013372 00000 n 
+0000013518 00000 n 
+0000015340 00000 n 
+0000015438 00000 n 
+trailer
+<< /Size 15 /Root 1 0 R >>
+startxref
+15541
+%%EOF
