@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HBntory Backoffice</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <h2><strong>HBntory</strong> Backoffice</h2>
+        {% if current_user %}
+            <div>Logged in as: <strong>{{ current_user.username }}</strong> | <a href="/logout">Logout</a></div>
+        {% endif %}
+    </nav>
+    <main class="container">
+        {% if request.query_params.get("error") %}
+            <div class="alert-error">⚠️ {{ request.query_params.get("error") }}</div>
+        {% endif %}
+        {% block content %}{% endblock %}
+    </main>
+</body>
+</html>

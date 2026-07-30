@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="card">
+    <h3>Create Common User</h3>
+    <form action="/admin/users/create" method="POST" style="display: grid; grid-template-columns: 1fr 1fr 1fr auto; gap: 1rem; align-items: end;">
+        <div>
+            <label>Username</label>
+            <input type="text" name="username" class="form-control" required>
+        </div>
+        <div>
+            <label>Password</label>
+            <input type="password" name="password" class="form-control" required>
+        </div>
+        <div>
+            <label>Branch</label>
+            <select name="branch_id" class="form-control" required>
+                {% for b in branches %}
+                    <option value="{{ b.id }}">{{ b.name }}</option>
+                {% endfor %}
+            </select>
+        </div>
+        <button type="submit" class="btn">Create User</button>
+    </form>
+</div>
+<div class="card">
+    <h3>Users</h3>
+    <table>
+        <thead><tr><th>ID</th><th>Username</th><th>Role</th><th>Branch</th><th>Action</th></tr></thead>
+        <tbody>
+            {% for u in users %}
+            <tr>
+                <td>{{ u.id }}</td>
+                <td>{{ u.username }}</td>
+                <td>{{ u.role.value }}</td>
+                <td>{{ u.branch.name if u.branch else "All" }}</td>
+                <td>
+                    {% if u.role.value != "admin" %}
+                    <form action="/admin/users/{{ u.id }}/toggle-active" method="POST" style="display:inline;">
+                        {% if u.is_active %}
+                        <button type="submit" class="btn btn-danger">Désactiver</button>
+                        {% else %}
+                        <button type="submit" class="btn btn-success">Activer</button>
+                        {% endif %}
+                    </form>
+                    <form action="/admin/users/{{ u.id }}/delete" method="POST" style="display:inline;">
+                        <button type="submit" class="btn btn-danger" onclick="return confirm('Supprimer définitivement cet utilisateur ?');">Supprimer</button>
+                    </form>
+                    {% endif %}
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+{% endblock %}
