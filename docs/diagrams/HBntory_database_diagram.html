@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HBntory - Diagramme base de donnees</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: #172033;
+      background: #f5f7fb;
+    }
+
+    header {
+      padding: 32px 48px;
+      color: #ffffff;
+      background: #123c69;
+    }
+
+    main {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 32px 24px;
+    }
+
+    section {
+      margin-bottom: 24px;
+      padding: 24px;
+      background: #ffffff;
+      border: 1px solid #d9e2ec;
+      border-radius: 8px;
+    }
+
+    h1, h2 {
+      margin-top: 0;
+    }
+
+    h2 {
+      color: #123c69;
+    }
+
+    pre {
+      white-space: pre-wrap;
+      line-height: 1.5;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>HBntory - Diagramme de base de donnees</h1>
+    <p>Tables, colonnes, relations et contraintes principales du backend.</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Diagramme ERD</h2>
+      <pre class="mermaid">
+erDiagram
+    BRANCHES ||--o{ USERS : "possede"
+    BRANCHES ||--o{ STOCKS : "contient"
+
+    BRANCHES {
+        int id PK
+        string name UK
+        string address
+        boolean is_active
+    }
+
+    USERS {
+        int id PK
+        string username UK
+        string password_hash
+        enum role
+        int branch_id FK
+        boolean is_active
+    }
+
+    STOCKS {
+        int id PK
+        int branch_id FK
+        string product_id
+        int quantity
+    }
+      </pre>
+    </section>
+
+    <section>
+      <h2>Relations</h2>
+      <pre>
+branches.id 1 ---- N users.branch_id
+branches.id 1 ---- N stocks.branch_id
+      </pre>
+    </section>
+
+    <section>
+      <h2>Contraintes importantes</h2>
+      <pre>
+branches.name est unique
+users.username est unique
+stocks.branch_id + stocks.product_id est unique
+stocks.quantity doit etre >= 0
+users.branch_id peut etre NULL si la branche est supprimee
+stocks sont supprimes automatiquement si la branche est supprimee
+      </pre>
+    </section>
+  </main>
+
+  <script type="module">
+    import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs";
+    mermaid.initialize({ startOnLoad: true, theme: "default" });
+  </script>
+</body>
+</html>
+
