@@ -1,0 +1,113 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 841.89 595.28] /Resources << /Font << /F1 5 0 R /F2 6 0 R >> >> /Contents 4 0 R >>
+endobj
+4 0 obj
+<< /Length 4503 >>
+stream
+0.97 0.98 1 rg 0 0 841.89 595.28 re f
+BT /F2 20 Tf 0.08 0.12 0.2 rg 32 566 Td (HBntory - Diagramme de base de donnees) Tj ET
+BT /F1 9 Tf 0.3 0.35 0.45 rg 32 549 Td (Etat actuel : le Backend et le Backoffice ont deux bases independantes.) Tj ET
+0.12 0.36 0.7 rg 32 495 365 50 re f
+0.3 0.38 0.52 RG 1.2 w 32 65 365 480 re S
+BT /F2 16 Tf 1 1 1 rg 50 521 Td (Backend - PostgreSQL) Tj ET
+BT /F1 8.5 Tf 1 1 1 rg 50 505 Td (Base consultee par le service IA) Tj ET
+0.1 0.52 0.35 rg 444 495 365 50 re f
+0.3 0.38 0.52 RG 1.2 w 444 65 365 480 re S
+BT /F2 16 Tf 1 1 1 rg 462 521 Td (Backoffice - SQLite) Tj ET
+BT /F1 8.5 Tf 1 1 1 rg 462 505 Td (Base locale de l'interface interne) Tj ET
+1 1 1 rg 54 327 145 106 re f
+0.32 0.39 0.5 RG 1.1 w 54 327 145 106 re S
+0.12 0.36 0.7 rg 54 399 145 34 re f
+BT /F2 11 Tf 1 1 1 rg 66 411 Td (BRANCHES) Tj ET
+BT /F2 8.5 Tf 0.03 0.27 0.55 rg 66 382 Td (PK  id : integer) Tj ET
+BT /F1 8.5 Tf 0.08 0.12 0.2 rg 66 364 Td (UK  name : string) Tj ET
+BT /F1 8.5 Tf 0.08 0.12 0.2 rg 66 346 Td (address : string \(nullable\)) Tj ET
+BT /F1 8.5 Tf 0.08 0.12 0.2 rg 66 328 Td (is_active : boolean) Tj ET
+1 1 1 rg 254 291 123 142 re f
+0.32 0.39 0.5 RG 1.1 w 254 291 123 142 re S
+0.12 0.36 0.7 rg 254 399 123 34 re f
+BT /F2 11 Tf 1 1 1 rg 266 411 Td (USERS) Tj ET
+BT /F2 8.5 Tf 0.03 0.27 0.55 rg 266 382 Td (PK  id : integer) Tj ET
+BT /F1 8.5 Tf 0.08 0.12 0.2 rg 266 364 Td (UK  username : string) Tj ET
+BT /F1 8.5 Tf 0.08 0.12 0.2 rg 266 346 Td (password_hash : string) Tj ET
+BT /F1 8.5 Tf 0.08 0.12 0.2 rg 266 328 Td (role : admin | common) Tj ET
+BT /F2 8.5 Tf 0.5 0.22 0.05 rg 266 310 Td (FK  branch_id -> branches) Tj ET
+BT /F1 8.5 Tf 0.08 0.12 0.2 rg 266 292 Td (is_active : boolean) Tj ET
+1 1 1 rg 154 86 145 124 re f
+0.32 0.39 0.5 RG 1.1 w 154 86 145 124 re S
+0.12 0.36 0.7 rg 154 176 145 34 re f
+BT /F2 11 Tf 1 1 1 rg 166 188 Td (STOCKS) Tj ET
+BT /F2 8.5 Tf 0.03 0.27 0.55 rg 166 159 Td (PK  id : integer) Tj ET
+BT /F2 8.5 Tf 0.5 0.22 0.05 rg 166 141 Td (FK  branch_id -> branches) Tj ET
+BT /F1 8.5 Tf 0.08 0.12 0.2 rg 166 123 Td (product_id : string) Tj ET
+BT /F1 8.5 Tf 0.08 0.12 0.2 rg 166 105 Td (quantity : integer >= 0) Tj ET
+BT /F1 8.5 Tf 0.08 0.12 0.2 rg 166 87 Td (UK  branch_id + product_id) Tj ET
+0.16 0.34 0.62 RG 1.35 w 199 365 m 254 365 l S
+0.16 0.34 0.62 rg 254 365 m 247 369 l 247 361 l h f
+BT /F1 7.5 Tf 0.16 0.34 0.62 rg 198.5 373.0 Td (1 agence / n utilisateurs) Tj ET
+0.16 0.34 0.62 RG 1.35 w 126 335 m 205 210 l S
+0.16 0.34 0.62 rg 205 210 m 209 217 l 201 217 l h f
+BT /F1 7.5 Tf 0.16 0.34 0.62 rg 137.5 280.5 Td (1 agence / n stocks) Tj ET
+1 1 1 rg 466 363 145 70 re f
+0.32 0.39 0.5 RG 1.1 w 466 363 145 70 re S
+0.1 0.52 0.35 rg 466 399 145 34 re f
+BT /F2 11 Tf 1 1 1 rg 478 411 Td (BRANCHES) Tj ET
+BT /F2 8.5 Tf 0.03 0.27 0.55 rg 478 382 Td (PK  id : integer) Tj ET
+BT /F1 8.5 Tf 0.08 0.12 0.2 rg 478 364 Td (UK  name : string) Tj ET
+1 1 1 rg 666 291 123 142 re f
+0.32 0.39 0.5 RG 1.1 w 666 291 123 142 re S
+0.1 0.52 0.35 rg 666 399 123 34 re f
+BT /F2 11 Tf 1 1 1 rg 678 411 Td (USERS) Tj ET
+BT /F2 8.5 Tf 0.03 0.27 0.55 rg 678 382 Td (PK  id : integer) Tj ET
+BT /F1 8.5 Tf 0.08 0.12 0.2 rg 678 364 Td (UK  username : string) Tj ET
+BT /F1 8.5 Tf 0.08 0.12 0.2 rg 678 346 Td (password_hash : string) Tj ET
+BT /F1 8.5 Tf 0.08 0.12 0.2 rg 678 328 Td (role : admin | common) Tj ET
+BT /F2 8.5 Tf 0.5 0.22 0.05 rg 678 310 Td (FK  branch_id -> branches) Tj ET
+BT /F1 8.5 Tf 0.08 0.12 0.2 rg 678 292 Td (is_active : boolean) Tj ET
+1 1 1 rg 566 104 145 106 re f
+0.32 0.39 0.5 RG 1.1 w 566 104 145 106 re S
+0.1 0.52 0.35 rg 566 176 145 34 re f
+BT /F2 11 Tf 1 1 1 rg 578 188 Td (STOCK) Tj ET
+BT /F2 8.5 Tf 0.03 0.27 0.55 rg 578 159 Td (PK  id : integer) Tj ET
+BT /F2 8.5 Tf 0.5 0.22 0.05 rg 578 141 Td (FK  branch_id -> branches) Tj ET
+BT /F1 8.5 Tf 0.08 0.12 0.2 rg 578 123 Td (product_id : string) Tj ET
+BT /F1 8.5 Tf 0.08 0.12 0.2 rg 578 105 Td (quantity : integer) Tj ET
+0.16 0.34 0.62 RG 1.35 w 611 365 m 666 365 l S
+0.16 0.34 0.62 rg 666 365 m 659 369 l 659 361 l h f
+BT /F1 7.5 Tf 0.16 0.34 0.62 rg 610.5 373.0 Td (1 agence / n utilisateurs) Tj ET
+0.16 0.34 0.62 RG 1.35 w 538 360 m 637 210 l S
+0.16 0.34 0.62 rg 637 210 m 641 217 l 633 217 l h f
+BT /F1 7.5 Tf 0.16 0.34 0.62 rg 559.5 293.0 Td (1 agence / n stocks) Tj ET
+0.97 0.91 0.78 rg 32 20 777 31 re f
+0.75 0.55 0.14 RG 0.9 w 32 20 777 31 re S
+BT /F2 9 Tf 0.3 0.2 0.05 rg 45 38 Td (Attention : les tables sont similaires mais ne sont pas synchronisees. Le stock est lie a une agence, pas a un utilisateur.) Tj ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000121 00000 n 
+0000000263 00000 n 
+0000004818 00000 n 
+0000004915 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+5017
+%%EOF
